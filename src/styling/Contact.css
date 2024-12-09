@@ -1,0 +1,159 @@
+.contactContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Links Styling */
+.contactLinks {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.contactLinks h2 {
+    text-align: center;
+}
+
+/* Individual Links Styling */
+.contactLink {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--white);
+    background-color: var(--viridian);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: solid 2px var(--gunmetal);
+}
+
+.contactLink:hover {
+    background-color: var(--dark-viridian);
+    transform: scale(1.05);
+}
+
+/* Contact Form Styling */
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: solid var(--eerie-black) 2px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--gunmetal);
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid var(--gunmetal);
+    border-radius: 5px;
+}
+
+.formGroup textarea {
+    min-height: 150px;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+    font-family: var(--font-primary); 
+    font-size: 16px;
+    color: var(--gunmetal); 
+}
+
+.contactSubmitBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--viridian);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contactSubmitBtn:hover {
+    background-color: var(--dark-viridian);
+    transform: scale(1.05);
+}
+
+/* Media Queries to change links as screen size shrinks */
+@media (min-width: 1024px) {
+    .contactLinks{
+        margin: 0 auto;
+    }
+    .contactLink {
+        display: inline-flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 150px;
+        height: 150px; 
+        padding: 0; 
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .contactContent {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contactLinks {
+        width: 100%; 
+    }
+
+    .contactForm {
+        padding: 15px; 
+        margin: 0 15px;
+    }
+
+    .contactLink {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactLink {
+        font-size: 14px; 
+        padding: 8px 12px; 
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        font-size: 14px;
+    }
+
+    .contactSubmitBtn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

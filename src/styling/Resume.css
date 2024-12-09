@@ -1,0 +1,43 @@
+.resumeArea {
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+/* Resume Toggle Button Styling */
+.resumeToggleBtn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: var(--white);
+    background-color: var(--viridian);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resumeToggleBtn:hover {
+    background-color: var(--dark-viridian);
+    transform: scale(1.05);
+}
+
+.resumeContent {
+    border: solid var(--eerie-black) 2px;
+    margin-bottom: 20px;
+}
+
+/* Iframe Styling */
+.resumeIFrame {
+    width: 100%;
+    height: 600px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .resumeIFrame {
+        height: 600px;
+    }
+}
