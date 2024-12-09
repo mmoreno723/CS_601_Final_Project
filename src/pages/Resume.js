@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../styling/Resume.css'
+import '../styling/Resume.css';
+import resume from '../images/Michael_Moreno_Resume_2025.pdf'
 
 function Resume() {
   // State hook to manage resume visibility
@@ -23,7 +24,7 @@ function Resume() {
       {showResume && (
         <div className="resumeContent">
           <iframe 
-            src="/Michael_Moreno_Resume_2025.pdf" 
+            src={resume}
             title="Michael Moreno Resume" 
             className="resumeIFrame"
           ></iframe>

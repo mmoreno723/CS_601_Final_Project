@@ -1,5 +1,12 @@
 import React from 'react';
-import '../styling/Biography.css'
+import '../styling/Biography.css';
+import fordhamImage from '../images/fordhamU.png';
+import bUImage from '../images/bostonU.png';
+import spursImage from '../images/spurs.png';
+import fcbImage from '../images/fcb.png';
+import swissImage from '../images/swiss.png';
+import eaglesImage from '../images/eagles.png';
+
 
 function Biography() {
   return <div className='bioArea'>
@@ -45,21 +52,21 @@ function Biography() {
       </div>
       <div className='abtMePhotos'>
         <div>
-          <img src='/images/fordhamU.png' alt='Fordham Logo' />
+          <img src={fordhamImage} alt='Fordham Logo' />
           <span>My alma mater: Fordham University</span>
         </div>
-        <div><img src='/images/bostonU.png' alt='BU Logo' />
+        <div><img src={bUImage} alt='BU Logo' />
           <span>My graduate school: Boston University</span></div>
-        <div><img src='/images/spurs.png' alt='Spurs Logo' />
+        <div><img src={spursImage} alt='Spurs Logo' />
           <span>My favorite basketball team: San Antonio Spurs</span>
         </div>
-        <div><img src='/images/fcb.png' alt='FCB Logo' />
+        <div><img src={fcbImage} alt='FCB Logo' />
           <span>My favorite soccer team: FC Barcelona</span>
         </div>
-        <div><img src='/images/swiss.png' alt='Switzerland Flag' />
+        <div><img src={swissImage} alt='Switzerland Flag' />
           <span>My favorite country I've been to: Switzerland</span>
         </div>
-        <div><img src='/images/eagles.png' alt='Eagles Hotel California Album' />
+        <div><img src={eaglesImage} alt='Eagles Hotel California Album' />
           <span>My favorite album: Hotel California</span>
         </div>
       </div>
