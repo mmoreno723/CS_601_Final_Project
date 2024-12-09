@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Michael Moreno's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio app! This React-based application showcases my professional background, projects, and skills.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Home Page**: An introduction to the portfolio.
+- **Biography**: Learn about my background, hobbies, and experiences.
+- **Recent Works**: A display of my notable projects.
+- **Code Showcase**: An insight to my skills with a random password generator.
+- **Resume**: View or download my professional resume.
+- **Contact**: A form to get in touch with me.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **Frontend**: React.js
+- **Routing**: React Router DOM
+- **Styling**: CSS
+- **Deployment**: GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖼️ Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home Page
+![Home Page](/src/images/screenshots/homepage.jpg)
+*Figure 1: The home page when you initially load up the application.*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Recent Works
+![Recent Works](/src/images/screenshots/recentWorks.jpg)
+*Figure 2: The recent works page with links to different GitHub repositories.*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Code Showcase
+![Code Showcase](/src/images/screenshots/passwordGenerator.jpg)
+*Figure 3: The code showcase page displaying the random password generator.*
 
-### `npm run eject`
+### Contact Page
+![Contact Page](/src/images/screenshots/contact.jpg)
+*Figure 4: The contact me page with a form to send me an email as well as personal links.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Responsive Menu Bar
+![Menu Bar](/src/images/screenshots/menubar.jpg) 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*Figure 5: The menu bar as displayed on a smaller screen.*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Project Structure
 
-## Learn More
+```plaintext
+public/
+index.html
+src/
+├── hooks/
+useMenuBarToggle.js
+usePasswordGenerator.js
+├── images/             # Collection of images 
+├── pages/
+Biography.js
+CodeShowcase.js
+Contact.js
+RecentWorks.js
+Resume.js
+├── styling/            # CSS files for styling
+├── App.js              # Main application entry 
+├── index.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Setup Instructions
+- Ensure `node.js` is installed on your machine.
+- A GitHub account for cloning the repository
 
-### Code Splitting
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/your-repo-name.git 
+```
+2. Navigate to the project folder:
+```bash
+cd your-repo-name
+```
+3. Install dependencies:
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Building for Production
+1. Create a production build:
+```bash
+npm run build
+```
+2. Deploy to GitHub pages:
+```bash
+npm run deploy
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🖥️ Deployment
+The portfolio is live at this website: https://mmoreno723.github.io/CS_601_Final_Project/#/
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📧 Contact
+Feel free to reach out to me:
+- Email: morenomichael723@gmail.com
+- LinkedIn: https://www.linkedin.com/in/michaelmoreno723/
+- GitHub: https://github.com/mmoreno723
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
