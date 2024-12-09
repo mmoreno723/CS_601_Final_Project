@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/CS_601_Final_Project/static/css/main.3d90882d.css",
-    "main.js": "/CS_601_Final_Project/static/js/main.089e717a.js",
+    "main.js": "/CS_601_Final_Project/static/js/main.a6a22c53.js",
     "static/js/488.9fd8b200.chunk.js": "/CS_601_Final_Project/static/js/488.9fd8b200.chunk.js",
+    "static/media/eagles.png": "/CS_601_Final_Project/static/media/eagles.914c8667edaceca1755d.png",
+    "static/media/michael.JPG": "/CS_601_Final_Project/static/media/michael.27fc0ebb1206e230bfce.JPG",
+    "static/media/Michael_Moreno_Resume_2025.pdf": "/CS_601_Final_Project/static/media/Michael_Moreno_Resume_2025.a1b649d947fbb23084bc.pdf",
+    "static/media/fcb.png": "/CS_601_Final_Project/static/media/fcb.19ff8293ad32e8912995.png",
+    "static/media/fordhamU.png": "/CS_601_Final_Project/static/media/fordhamU.6da557b6a2236eb08195.png",
+    "static/media/bostonU.png": "/CS_601_Final_Project/static/media/bostonU.687cd0d8892380148729.png",
+    "static/media/spurs.png": "/CS_601_Final_Project/static/media/spurs.01c8f18fe5140a68be39.png",
     "index.html": "/CS_601_Final_Project/index.html",
     "main.3d90882d.css.map": "/CS_601_Final_Project/static/css/main.3d90882d.css.map",
-    "main.089e717a.js.map": "/CS_601_Final_Project/static/js/main.089e717a.js.map",
+    "main.a6a22c53.js.map": "/CS_601_Final_Project/static/js/main.a6a22c53.js.map",
     "488.9fd8b200.chunk.js.map": "/CS_601_Final_Project/static/js/488.9fd8b200.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d90882d.css",
-    "static/js/main.089e717a.js"
+    "static/js/main.a6a22c53.js"
   ]
 }
