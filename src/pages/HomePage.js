@@ -4,7 +4,7 @@ import '../styling/HomePage.css'
 function HomePage() {
   return <div className="homePage">
     <div className='photoArea'>
-        <img src='/public/images/michael.JPG' alt='Michael head shot' className='homePagePhoto'></img>
+        <img src='images/michael.JPG' alt='Michael head shot' className='homePagePhoto'></img>
     </div>
   <div className="homeContent">
       <h1>
